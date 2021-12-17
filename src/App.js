@@ -13,7 +13,6 @@ function App() {
       <Banner />
       <Row title='Netflix Trending' fetchUrl={request.fetchNetflixOriginal} isLargeRow />
       <Row title='Trending Now' fetchUrl={request.fetchTrending} />
-      <Row title='Top Rared' fetchUrl={request.fetchTopRated} />
       <Row title='Action Movies' fetchUrl={request.fetchActionMovie} />
       <Row title='Comedy Movies' fetchUrl={request.fetchComedyMovie} />
       <Row title='Horor Movies' fetchUrl={request.fetchHororMovie} />

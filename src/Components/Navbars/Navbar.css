@@ -5,9 +5,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
   height: 30px;
   z-index: 1;
+
+  /* Animation */
+  transition: all 0.5s;
 }
 
 .nav__black {
