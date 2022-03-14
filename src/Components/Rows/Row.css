@@ -5,7 +5,9 @@
 
 .row__posters {
   display: flex;
-  overflow-y: hidden;
+  /* overflow-y: hidden;
+  overflow-x: scroll; */
+  overflow-y: auto;
   overflow-x: scroll;
   padding: 10px;
 }
@@ -24,6 +26,7 @@
 
 .row__poster:hover {
   transform: scale(1.08);
+  cursor: pointer;
 }
 
 .row__posterLarge {
